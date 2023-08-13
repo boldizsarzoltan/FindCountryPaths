@@ -1,0 +1,13 @@
+If you want to use this project you should have installed docker or install docker.
+In this case the commands you should use are:
+(change port 8000 on your machine optionally)
+
+docker build . -t {name_you_give}
+docker run -p 8000:8000 {name_you_give}
+
+Example of usage:
+
+docker build . -t symfony_project
+docker run -p 8000:8000 symfony_project
+
+In other cases you should install symfony cli, composer and some other system libraries.
